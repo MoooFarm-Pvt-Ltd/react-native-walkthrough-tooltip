@@ -1,32 +1,41 @@
 {
-  "name": "react-native-walkthrough-tooltip",
-  "version": "1.2.0",
-  "description": "An inline wrapper for calling out React Native components via tooltip",
-  "main": "src/tooltip.js",
-  "scripts": {
-    "test": "jest"
+  "_from": "react-native-walkthrough-tooltip",
+  "_id": "react-native-walkthrough-tooltip@1.2.0",
+  "_inBundle": false,
+  "_integrity": "sha512-M4/dg8PuYKslitHXaCQ/JLudvGEVqI2tJLKv34AQ3X0tLTtNXvAvyCPlDZ+Bg2l9qJ5PQOz8iMt6dyqLn1ed+w==",
+  "_location": "/react-native-walkthrough-tooltip",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "react-native-walkthrough-tooltip",
+    "name": "react-native-walkthrough-tooltip",
+    "escapedName": "react-native-walkthrough-tooltip",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jasongaare/react-native-walkthrough-tooltip.git"
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-walkthrough-tooltip/-/react-native-walkthrough-tooltip-1.2.0.tgz",
+  "_shasum": "4d9781d2e3231bbe5d6ab154c6cf3cbbe4040e6d",
+  "_spec": "react-native-walkthrough-tooltip",
+  "_where": "D:\\MooofarmVetscreen\\MoooFarmFarmerApp_RN",
+  "author": {
+    "name": "Jason Gaare"
   },
-  "author": "Jason Gaare",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/jasongaare/react-native-walkthrough-tooltip/issues"
   },
-  "homepage": "https://github.com/jasongaare/react-native-walkthrough-tooltip#readme",
-  "keywords": [
-    "react",
-    "react-native",
-    "walkthrough",
-    "tooltip",
-    "popover"
-  ],
+  "bundleDependencies": false,
   "dependencies": {
     "prop-types": "^15.6.1",
     "react-fast-compare": "^2.0.4"
   },
+  "deprecated": false,
+  "description": "An inline wrapper for calling out React Native components via tooltip",
   "devDependencies": {
     "@react-native-community/eslint-config": "0.0.5",
     "babel-core": "6.26.3",
@@ -41,9 +50,7 @@
     "react-dom": "16.3.3",
     "react-native": "^0.55.3"
   },
-  "peerDependencies": {
-    "@types/react": "^16.8.24"
-  },
+  "homepage": "https://github.com/jasongaare/react-native-walkthrough-tooltip#readme",
   "jest": {
     "preset": "react-native",
     "collectCoverageFrom": [
@@ -63,5 +70,26 @@
     "transformIgnorePatterns": [
       "node_modules/(?!(jest-)?react-native)"
     ]
-  }
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "walkthrough",
+    "tooltip",
+    "popover"
+  ],
+  "license": "MIT",
+  "main": "src/tooltip.js",
+  "name": "react-native-walkthrough-tooltip",
+  "peerDependencies": {
+    "@types/react": "^16.8.24"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasongaare/react-native-walkthrough-tooltip.git"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "version": "1.2.0"
 }

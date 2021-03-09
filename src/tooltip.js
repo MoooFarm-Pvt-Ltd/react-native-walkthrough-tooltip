@@ -6,6 +6,7 @@ import {
   Modal,
   TouchableWithoutFeedback,
   View,
+  StatusBar
 } from 'react-native';
 import rfcIsEqual from 'react-fast-compare';
 import {
@@ -442,6 +443,10 @@ class Tooltip extends Component {
             onRequestClose={this.props.onClose}
             supportedOrientations={this.props.supportedOrientations}
           >
+             <StatusBar
+            backgroundColor="rgba(0,0,0,0.7)"
+            barStyle="light-content"
+          />
             {this.renderContentForTooltip()}
           </Modal>
         ) : null}
