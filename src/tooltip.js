@@ -415,7 +415,9 @@ class Tooltip extends Component {
                   onPress={onPressContent}
                   accessible={this.props.accessible}
                 >
-                  {this.props.content}
+                  {
+                  this.props.content
+                  } 
                 </TouchableWithoutFeedback>
               </View>
             </View>
