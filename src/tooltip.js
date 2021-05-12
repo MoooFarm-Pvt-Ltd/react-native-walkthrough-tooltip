@@ -405,6 +405,7 @@ class Tooltip extends Component {
       >
         <View style={generatedStyles.containerStyle}>
           <View style={[generatedStyles.backgroundStyle]}>
+            {this.props.toolTipHeader}
             <View style={generatedStyles.tooltipStyle}>
               {hasChildren ? <View style={generatedStyles.arrowStyle} /> : null}
               <View
@@ -415,9 +416,7 @@ class Tooltip extends Component {
                   onPress={onPressContent}
                   accessible={this.props.accessible}
                 >
-                  {
-                  this.props.content
-                  } 
+                  {this.props.content}
                 </TouchableWithoutFeedback>
               </View>
             </View>
